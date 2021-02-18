@@ -1,0 +1,65 @@
+$containerWidth: 940px;
+$baseFontSize: 18px;
+
+//breakpoints
+$tablets: 768px;
+$phones: 480px;
+
+//colors
+$blue: #61C4D9;
+$darkGreen: #365A49;
+
+//z-index
+$z-fixed-menu: 1000;
+$z-reviews-section: 50;
+$z-hamburger: 15;
+$z-overlay: 1;
+
+//media
+@import "_media";
+
+//normalize
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css");
+
+//setups
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,300;0,400;0,700;0,800;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import "layout";
+
+//components
+@import "components/_hero";
+@import "components/_header";
+@import "components/_menu";
+@import "components/_features";
+@import "components/_feature";
+@import "components/_btn";
+@import "components/_section";
+@import "components/_headline";
+@import "components/_benefits";
+@import "components/_benefit";
+@import "components/_benefits-section";
+@import "components/_products-section";
+@import "components/_slider__arrows";
+@import "components/_slider";
+@import "components/_team";
+@import "components/_team-section";
+@import "components/horiz-accordion";
+@import "components/horiz-accordion-section";
+@import "components/_reviews-section";
+@import "components/_reviews-title";
+@import "components/_reviews__display";
+@import "components/_reviews__switcher";
+@import "components/_slider-section";
+@import "components/player-section";
+@import "components/_player";
+@import "components/_order-section";
+@import "components/_order-title";
+@import "components/_form";
+@import "components/_radio";
+@import "components/_modal";
+@import "components/_map-section";
+@import "components/_fixed__menu";
+@import "components/_hamburger";
+@import "components/_footer";
+@import "components/_contacts";
+@import "components/_socials";
